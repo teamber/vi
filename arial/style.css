@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('ARIAL.woff') format('woff');
+    /* Autres propriétés de la police, comme font-weight, font-style, etc. */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Arial';
+    src: url('ARIALI.woff') format('woff');
+    /* Autres propriétés de la police, comme font-weight, font-style, etc. */
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Arial';
+    src: url('ARIALBD.woff') format('woff');
+    /* Autres propriétés de la police, comme font-weight, font-style, etc. */
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Arial';
+    src: url('ArialCEBoldItalic.woff') format('woff');
+    /* Autres propriétés de la police, comme font-weight, font-style, etc. */
+    font-weight: bold;
+    font-style: italic;
+}
