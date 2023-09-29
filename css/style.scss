@@ -1,4 +1,5 @@
-  #filigrane {
+@import url("https://pdfmonkey-resources.s3.eu-west-3.amazonaws.com/css/tailwind-light.min.css");
+#filigrane {
     position: fixed;
     top: 55%;
     bottom: 0;
@@ -13,3 +14,64 @@
     transform-origin: bottom left;
     pointer-events: none;
   }
+////////////////////////////////////////////////////////////////////////
+////////////////////// RESET //////////////////////////////////////////
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+///////////////////////////////////////////////////////////////////////
+
+
+
+#pageHeader {
+  position: running(pageHeader);
+}
+
+#pageHeaderPageBreak {
+  position: running(pageHeaderPageBreak);
+}
+
+#pageFooter {
+  position: running(pageFooter);
+}
+
+.last-page {
+  page: last-page;
+}
+
+@page {
+  /* Pixel size for a portrait A4 page */
+  // size: 793px 1120px;
+
+  /* We're using the same height as the height we defined
+     for the header/footer content above */
+  margin: $doc-marginTop $doc-margin-x $doc-marginBottom $doc-margin-x;
+
+  /* This is where we tell Paged.js where to display
+     our elements */
+  @top-center { content: element(pageHeader); }
+  @bottom-center { content: element(pageFooter); }
+}
+
+@function contrastText($color) {
+    $result: invert($color);
+    $lightness: lightness($result);
+    @if ($lightness < 40) {
+      $result: $text-color;
+    } @else {
+      $result: #fff;
+    }
+    @return $result;
+}
+
+.avoid-page-break {
+  page-break-inside: avoid;
+}
+
+.page-break {
+  page-break-before: always;
+}
+
+.mainColor{ color: $color1 !important;}
