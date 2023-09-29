@@ -14,8 +14,3 @@
     pointer-events: none;
   }
 
-.page-break {
-  page-break-before: always;
-}
-
-.mainColor{ color: $color1 !important;}
