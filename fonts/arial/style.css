@@ -26,3 +26,10 @@
     font-weight: bold;
     font-style: italic;
 }
+@font-face {
+    font-family: 'Arial';
+    src: url('ArialCEMTBlack.woff') format('woff');
+    /* Autres propriétés de la police, comme font-weight, font-style, etc. */
+    font-weight: 900;
+    font-style: normal;
+}
