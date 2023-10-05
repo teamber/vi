@@ -22,18 +22,3 @@
   pointer-events: none;
 }
 
-#pageHeader {
-  position: running(pageHeader);
-}
-
-#pageHeaderPageBreak {
-  position: running(pageHeaderPageBreak);
-}
-
-#pageFooter {
-  position: running(pageFooter);
-}
-
-.last-page {
-  page: last-page;
-}
