@@ -1,5 +1,15 @@
+.header {
+  background-color: red !important;
+}
+
 $color3: red;
 
 .header {
   background-color: $color3 !important;
+}
+
+#articles {
+  td {
+    background-color: green !important;
+  }
 }
