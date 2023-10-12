@@ -1,15 +1,10 @@
-.header {
-  background-color: red !important;
-}
-
-$color3: red;
-
-.header {
-  background-color: $color3 !important;
-}
-
-#articles {
-  td {
-    background-color: green !important;
-  }
+@function contrastText($color) {
+    $result: invert($color);
+    $lightness: lightness($result);
+    @if ($lightness < 40) {
+      $result: $text-color;
+    } @else {
+      $result: #fff;
+    }
+    @return $result;
 }
