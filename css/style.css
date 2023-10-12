@@ -43,3 +43,14 @@
   @top-center { content: element(pageHeader); }
   @bottom-center { content: element(pageFooter); }
 }
+
+@function contrastText($color) {
+    $result: invert($color);
+    $lightness: lightness($result);
+    @if ($lightness < 40) {
+      $result: $text-color;
+    } @else {
+      $result: #fff;
+    }
+    @return $result;
+}
