@@ -21,3 +21,25 @@
   transform-origin: bottom left;
   pointer-events: none;
 }
+
+  #pageHeader {
+  position: running(pageHeader);
+}
+
+#pageHeaderPageBreak {
+  position: running(pageHeaderPageBreak);
+}
+
+#pageFooter {
+  position: running(pageFooter);
+}
+
+.last-page {
+  page: last-page;
+}
+
+@page {
+  margin: var(--doc-marginTop) var(--doc-margin-x) var(--doc-marginBottom) var(--doc-margin-x);
+  @top-center { content: element(pageHeader); }
+  @bottom-center { content: element(pageFooter); }
+}
