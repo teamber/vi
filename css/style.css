@@ -44,4 +44,13 @@
   @bottom-center { content: element(pageFooter); }
 }
 
+.avoid-page-break {
+  page-break-inside: avoid;
+}
+
+.page-break {
+  page-break-before: always;
+}
+
+.mainColor{ color: var(--color1) !important;}
 
