@@ -39,7 +39,10 @@
 }
 
 @page {
-  margin: var(--doc-marginTop) var(--doc-margin-x) var(--doc-marginBottom) var(--doc-margin-x);
+  margin-top: var(--doc-marginTop);
+  margin-right: var(--doc-margin-x);
+  margin-bottom: var(--doc-marginBottom);
+  margin-left: var(--doc-margin-x);
   @top-center { content: element(pageHeader); }
   @bottom-center { content: element(pageFooter); }
 }
