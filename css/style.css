@@ -3,6 +3,9 @@
 *, *:after, *:before {
   box-sizing: border-box;
 }
+table {
+  border-collapse: collapse;
+}
 
 
 
@@ -36,15 +39,6 @@
 
 .last-page {
   page: last-page;
-}
-
-@page {
-  margin-top: var(--doc-marginTop);
-  margin-right: var(--doc-margin-x);
-  margin-bottom: var(--doc-marginBottom);
-  margin-left: var(--doc-margin-x);
-  @top-center { content: element(pageHeader); }
-  @bottom-center { content: element(pageFooter); }
 }
 
 .avoid-page-break {
