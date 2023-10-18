@@ -22,3 +22,9 @@
   font-weight: bold;
   font-style: italic;
 }
+@font-face {
+  font-family: 'Calibri';
+  src: url('calibril.ttf') format('truetype');
+  font-weight: light;
+  font-style: normal;
+}
