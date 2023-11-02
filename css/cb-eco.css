@@ -123,13 +123,5 @@ td {
   columns: 2;
 }
 
-.pagedjs_page {
-    tr.chapter:last-child {
-      page-break-before: always !important;
-      page-break-after: always !important;
-      page-break-inside: always !important;
-    }
-}
-
 
 
