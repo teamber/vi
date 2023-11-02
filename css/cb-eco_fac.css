@@ -1,0 +1,80 @@
+@import url("https://pdfmonkey-resources.s3.eu-west-3.amazonaws.com/css/tailwind-light.min.css");
+
+#pageHeader {
+  position: running(pageHeader);
+}
+
+.content {
+		font-size: 10px;
+}
+#pageHeaderPageBreak {
+  position: running(pageHeaderPageBreak);
+}
+
+#pageFooter {
+  position: running(pageFooter);
+}
+.last-page {
+  page: first-page;
+}
+@page {
+  /* Pixel size for a portrait A4 page */
+  size: 793px 1120px;
+
+  /* We're using the same height as the height we defined
+     for the header/footer content above */
+  margin: 100px 50px 100px 50px;
+
+  /* This is where we tell Paged.js where to display
+     our elements */
+  @top-center { content: element(pageHeader); }
+  @bottom-center { content: element(pageFooter); }
+}
+
+@page last-page {
+  @bottom-center { content: element(pageFooter); }
+}
+
+.page-break {
+  page-break-before: always;
+}
+
+
+td,th {
+	border: 0.7px solid #000;
+	padding:4px;
+						
+	}
+tr {
+  page-break-inside: avoid;
+}
+.avoid-page-break {
+  page-break-inside: avoid;
+}
+
+.colR1, .colR2, .colR3 {
+  display: none;
+}
+
+#revisions .colNowrap {
+  width: 10%;
+}
+#revisions th {
+  font-size: 9px;
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
+}
+
+.colNowrap {
+  white-space: nowrap;
+}
+.chapitre {
+  page-break-after: avoid;
+}
+#articlesTable th {
+  font-size: 9px;
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
+}
