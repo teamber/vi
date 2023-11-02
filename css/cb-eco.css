@@ -1,127 +1,100 @@
 
-:root {       
-  
-  --color1: #85AE71;
-  --color2: #F2F2F2;
-  --color3: #b7b7b7;
-  
-  --text-color: black;
-  
-  --margin: 50px;
-  
-  --logo-width: 150px;
-  --tableTotalWidth: 250px;
-  
-  --cell-padding: 4px;
-  --border-radius: 10px;
-  --border-color: black;
-  
-  
-
+:root {
+	 --color1: #85ae71;
+	 --color2: #f2f2f2;
+	 --color3: #b7b7b7;
+	 --text-color: black;
+	 --margin: 50px;
+	 --logo-width: 150px;
+	 --tableTotalWidth: 250px;
+	 --cell-padding: 4px;
+	 --border-radius: 10px;
+	 --border-color: black;
 }
-
-html {
-  font-size: 10px;
-  font-family: 'Arial', sans-serif;
-  color: var(--text-color);
+ html {
+	 font-size: 10px;
+	 font-family: 'Arial', sans-serif;
+	 color: var(--text-color);
 }
-
-
-
-td {
-  padding: var(--cell-padding);
+ td {
+	 padding: var(--cell-padding);
 }
-
-#articles, #revisions {
-  border-collapse: collapse;
-  border-spacing: 0;
-  tr {
-    page-break-inside: avoid;
-  }
-  td,th {
-    padding: var(--cell-padding);
-    page-break-inside: avoid;
-    border: 1px solid var(--text-color);
-  }
+ #articles, #revisions {
+	 border-collapse: collapse;
+	 border-spacing: 0;
 }
-
-#articles {
-  margin-top: 20px;
-  text-align: center;
-  td, th {
-    &:not(.col0) {
-      white-space: nowrap;
-      width: 6%;
-    }
-  }
-  th {
-    text-align: center !important;
-  }
-  td.col0 {
-    text-align: left;
-  }
-  .colPrice {
-    width: 10% !important;
-    text-align: right;
-  }
-  .chapter {
-    font-weight: bold;
-    text-align: justify;
-    page-break-after: avoid;
-    td {
-      padding-top: 20px !important;
-      border: 0;
-      font-weight: bold;
-      border-bottom: 1px solid var(--text-color);
-       border-top: 1px solid var(--text-color);
-      &:first-child {
-        border-left: 1px solid var(--border-color);
-      }
-      &:last-child {
-        border-right: 1px solid var(--border-color);
-      }
-    }
-  }
+ #articles tr, #revisions tr {
+	 page-break-inside: avoid;
 }
-
-
-
-#baseTable {
-  margin-top: 15px;
-  
-  td,th {
-    width: 70px;
-    text-align: center;
-    border: 1px solid var(--border-color);
-  }
-  th {
-    font-size: 9px;
-    line-height: 1;
-  }
-  td {
-    white-space: nowrap;
-  }
+ #articles td, #revisions td, #articles th, #revisions th {
+	 padding: var(--cell-padding);
+	 page-break-inside: avoid;
+	 border: 1px solid var(--text-color);
 }
-
-
-  li:before {
-    content: "\2022";
-    margin-right: 3px;
-  }
-
-#infosDevisCb tbody tr td {
-  border: 1px solid black;
+ #articles {
+	 margin-top: 20px;
+	 text-align: center;
 }
-
-.blue-element {
-  background-color: blue;
+ #articles td:not(.col0), #articles th:not(.col0) {
+	 white-space: nowrap;
+	 width: 6%;
 }
-
-.cgv {
-  font-size: 8px;
-  line-height: 10px;
-  columns: 2;
+ #articles th {
+	 text-align: center !important;
 }
-
-
-
+ #articles td.col0 {
+	 text-align: left;
+}
+ #articles .colPrice {
+	 width: 10% !important;
+	 text-align: right;
+}
+ #articles .chapter {
+	 font-weight: bold;
+	 text-align: justify;
+	 page-break-after: avoid;
+}
+ #articles .chapter td {
+	 padding-top: 20px !important;
+	 border: 0;
+	 font-weight: bold;
+	 border-bottom: 1px solid var(--text-color);
+	 border-top: 1px solid var(--text-color);
+}
+ #articles .chapter td:first-child {
+	 border-left: 1px solid var(--border-color);
+}
+ #articles .chapter td:last-child {
+	 border-right: 1px solid var(--border-color);
+}
+ #baseTable {
+	 margin-top: 15px;
+}
+ #baseTable td, #baseTable th {
+	 width: 70px;
+	 text-align: center;
+	 border: 1px solid var(--border-color);
+}
+ #baseTable th {
+	 font-size: 9px;
+	 line-height: 1;
+}
+ #baseTable td {
+	 white-space: nowrap;
+}
+ li:before {
+	 content: "\2022";
+	 margin-right: 3px;
+}
+ #infosDevisCb tbody tr td {
+	 border: 1px solid black;
+}
+ .blue-element {
+	 background-color: blue;
+}
+ .cgv {
+	 font-size: 8px;
+	 line-height: 10px;
+	 columns: 2;
+}
+ 
