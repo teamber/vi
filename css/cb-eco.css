@@ -26,14 +26,7 @@ html {
   color: var(--text-color);
 }
 
-@page {
-  size: 793px 1120px;
-  margin: 150px 50px 100px 50px;
-   
-  @top-center { content: element(pageHeader); }
-  @bottom-center { content: element(pageFooter); }
-  
-}
+
 
 td {
   padding: var(--cell-padding);
