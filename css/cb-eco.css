@@ -1,4 +1,4 @@
-@import url("https://pdfmonkey-resources.s3.eu-west-3.amazonaws.com/css/tailwind-light.min.css");
+@import url('https://raw.githubusercontent.com/teamber/vi/main/css/style.css');
 @import url("https://raw.githubusercontent.com/teamber/vi/main/fonts/arial/style.css");
 
 :root {
@@ -12,6 +12,14 @@
 	 --cell-padding: 4px;
 	 --border-radius: 10px;
 	 --border-color: black;
+}
+@page {
+  size: 793px 1120px;
+  margin: 150px 50px 100px 50px;
+   
+  @top-center { content: element(pageHeader); }
+  @bottom-center { content: element(pageFooter); }
+  
 }
  html {
 	 font-size: 10px;
