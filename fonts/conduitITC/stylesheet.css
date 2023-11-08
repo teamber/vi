@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Conduit ITC';
+    src: url('ConduitITC-BoldItalic.eot');
+    src: local('Conduit ITC Bold Italic'), local('ConduitITC-BoldItalic'),
+        url('ConduitITC-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ConduitITC-BoldItalic.woff2') format('woff2'),
+        url('ConduitITC-BoldItalic.woff') format('woff'),
+        url('ConduitITC-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Conduit ITC';
+    src: url('ConduitITC-Medium.eot');
+    src: local('Conduit ITC Medium'), local('ConduitITC-Medium'),
+        url('ConduitITC-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ConduitITC-Medium.woff2') format('woff2'),
+        url('ConduitITC-Medium.woff') format('woff'),
+        url('ConduitITC-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Conduit ITC';
+    src: url('ConduitITC-Bold.eot');
+    src: local('Conduit ITC Bold'), local('ConduitITC-Bold'),
+        url('ConduitITC-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ConduitITC-Bold.woff2') format('woff2'),
+        url('ConduitITC-Bold.woff') format('woff'),
+        url('ConduitITC-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Conduit ITC';
+    src: url('ConduitITC-Light.eot');
+    src: local('Conduit ITC Light'), local('ConduitITC-Light'),
+        url('ConduitITC-Light.eot?#iefix') format('embedded-opentype'),
+        url('ConduitITC-Light.woff2') format('woff2'),
+        url('ConduitITC-Light.woff') format('woff'),
+        url('ConduitITC-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Conduit ITC';
+    src: url('ConduitITC-MediumItalic.eot');
+    src: local('Conduit ITC Medium Italic'), local('ConduitITC-MediumItalic'),
+        url('ConduitITC-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('ConduitITC-MediumItalic.woff2') format('woff2'),
+        url('ConduitITC-MediumItalic.woff') format('woff'),
+        url('ConduitITC-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Conduit ITC';
+    src: url('ConduitITC-LightItalic.eot');
+    src: local('Conduit ITC Light Italic'), local('ConduitITC-LightItalic'),
+        url('ConduitITC-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('ConduitITC-LightItalic.woff2') format('woff2'),
+        url('ConduitITC-LightItalic.woff') format('woff'),
+        url('ConduitITC-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
