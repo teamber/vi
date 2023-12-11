@@ -45,7 +45,7 @@ table {
   page-break-inside: avoid;
 }
 
-.page-break {
+.page-break, break {
   page-break-before: always;
 }
 
