@@ -56,3 +56,7 @@ table {
 .text-right {text-align: right !important;}
 .font-bold {font-weight: bold !important;}
 
+li {
+  list-style-type: disc;
+}
+
