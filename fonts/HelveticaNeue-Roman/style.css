@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "HelveticaNeue-Roman";
+    src: url("136d9d929397f0027273643b6c4a506c.eot");
+    src: url("136d9d929397f0027273643b6c4a506c.eot?#iefix")format("embedded-opentype"),
+        url("136d9d929397f0027273643b6c4a506c.woff")format("woff"),
+        url("136d9d929397f0027273643b6c4a506c.woff2")format("woff2"),
+        url("136d9d929397f0027273643b6c4a506c.ttf")format("truetype"),
+        url("136d9d929397f0027273643b6c4a506c.svg#HelveticaNeue-Roman")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
