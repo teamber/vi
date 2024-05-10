@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Cambria';
+    src: local('Cambria Italic'), local('Cambria-Italic'),
+        url('Cambria-Italic.woff2') format('woff2'),
+        url('Cambria-Italic.woff') format('woff'),
+        url('Cambria-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
