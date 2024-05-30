@@ -50,6 +50,13 @@ table {
   page-break-before: always;
 }
 
+.chapter {
+  page-break-after: avoid !important;
+}
+.chapter + tr {
+  page-break-before: avoid !important;
+}
+
 .mainColor{ color: var(--color1) !important;}
 .text-center {text-align: center !important;}
 .text-left {text-align: left !important;}
