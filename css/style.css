@@ -57,9 +57,6 @@ table {
   page-break-before: avoid !important;
 }
 
-.nowrap {
-  white-space: nowrap !important;
-}
 
 .mainColor{ color: var(--color1) !important;}
 .text-center {text-align: center !important;}
