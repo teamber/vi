@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Interstate';
+    src: url("InterstateBold.otf") format("opentype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url("InterstateRegular.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
