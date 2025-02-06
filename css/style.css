@@ -70,3 +70,15 @@ ul {
   list-style-type: disc;
   padding-left: 20px;
 }
+
+#articles {
+  table {
+    width: auto;
+    tr {
+      background: inherit !important;
+      th,td {
+        border: 1px solid grey;
+      }
+    }
+  }
+}
