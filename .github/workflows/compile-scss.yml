@@ -3,7 +3,7 @@ name: Compile SCSS to CSS
 on:
   push:
     paths:
-      - 'vi/css/**/*.scss'  # Déclenche l'action uniquement si un fichier SCSS change.
+      - 'vi/css/**/*.scss'  # Déclenche l'action uniquement si un fichier SCSS change
 
 jobs:
   build:
@@ -11,18 +11,18 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4  # S'assure que le dépôt est bien récupéré
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Utilise la version de Node.js que tu préfères
+          node-version: '16'
 
       - name: Install Sass
-        run: npm install -g sass  # Installe Sass via npm
+        run: npm install -g sass
 
       - name: Compile SCSS
-        run: sass vi/css/test.scss vi/css/test.css  # Compile le SCSS en CSS
+        run: sass vi/css/test.scss vi/css/test.css
 
       - name: Commit compiled CSS
         run: |
