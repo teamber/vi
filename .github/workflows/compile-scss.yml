@@ -1,0 +1,27 @@
+name: Compile SCSS to CSS
+
+on:
+  push:
+    branches:
+      - main  # Exécute le script à chaque modification sur la branche principale
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Sass
+        run: sudo apt-get install -y sassc
+
+      - name: Compile SCSS to CSS
+        run: sass style.scss style.css
+
+      - name: Commit compiled CSS
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add style.css
+          git commit -m "Auto-compiled CSS from SCSS" || echo "No changes to commit"
+          git push
