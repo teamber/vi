@@ -3,7 +3,7 @@ name: Compile SCSS to CSS
 on:
   push:
     paths:
-      - 'vi/css/**/*.scss'  # Déclenche l'action uniquement si un fichier SCSS change
+      - 'vi/css/**/*.scss'  # Déclenche l'action uniquement si un fichier SCSS change.
 
 jobs:
   build:
