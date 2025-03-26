@@ -2,26 +2,32 @@ name: Compile SCSS to CSS
 
 on:
   push:
-    branches:
-      - main  # Exécute le script à chaque modification sur la branche principale
+    paths:
+      - 'vi/css/**/*.scss'  # Déclenche l'action uniquement si un fichier SCSS change
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # S'assure que le dépôt est bien récupéré
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'  # Utilise la version de Node.js que tu préfères
 
       - name: Install Sass
-        run: sudo apt-get install -y sassc
+        run: npm install -g sass  # Installe Sass via npm
 
-      - name: Compile SCSS to CSS
-        run: sass style.scss style.css
+      - name: Compile SCSS
+        run: sass vi/css/test.scss vi/css/test.css  # Compile le SCSS en CSS
 
       - name: Commit compiled CSS
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add style.css
-          git commit -m "Auto-compiled CSS from SCSS" || echo "No changes to commit"
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add vi/css/test.css
+          git commit -m "Compile SCSS to CSS"
           git push
