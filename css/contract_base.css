@@ -41,11 +41,8 @@ html {
 .payeur {
   padding: 10px;
   font-weight: bold;
-  background-color: var(--color3);
 }
 .details {
-  background-color: var(--color1);
-  color: #fff;
   padding: 10px;
   text-align: left;
   margin-top: 1.25rem;
@@ -75,14 +72,10 @@ html {
 .details .refClient {
   display: inline-block;
   padding: 0 var(--cell-padding);
-  background: var(--color2);
-  color: var(--fontColor2);
   border-radius: 3px;
 }
 .comm {
-  background-color: var(--color2);
   padding: 10px;
-  color: var(--fontColor2);
 }
 .tableTotals tr,
 #articles tr,
