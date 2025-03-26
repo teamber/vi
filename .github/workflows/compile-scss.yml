@@ -3,7 +3,7 @@ name: Compile SCSS to CSS
 on:
   push:
     paths:
-      - 'vi/css/**/*.scss'  # Déclenche l'action uniquement si un fichier SCSS change
+      - 'css/**/*.scss'  # Déclenche l'action uniquement si un fichier SCSS change
 
 jobs:
   build:
@@ -22,12 +22,12 @@ jobs:
         run: npm install -g sass
 
       - name: Compile SCSS
-        run: sass vi/css/test.scss vi/css/test.css
+        run: sass css/test.scss vi/css/test.css
 
       - name: Commit compiled CSS
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add vi/css/test.css
+          git add css/test.css
           git commit -m "Compile SCSS to CSS"
           git push
