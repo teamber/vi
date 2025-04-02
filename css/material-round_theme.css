@@ -20,6 +20,7 @@
  .themeBorderL {
 	 border-left: 5px solid var(--color2);
 	 padding-left: 10px;
+	 border-radius: 5px;
 }
  .details {
 	 background-color: var(--color1);
