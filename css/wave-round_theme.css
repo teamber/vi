@@ -112,6 +112,12 @@
  #articles {
 	 margin: 50px auto;
 }
+#articles th {
+	background-color: var(--color1);
+}
+#articles chapter td {
+	background-color: var(--color2);
+}
  #articles thead tr:first-child th:not(:first-child) {
 	 border-left: 1px solid var(--color3);
 }
