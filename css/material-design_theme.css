@@ -13,7 +13,7 @@
  .payeur {
 	 background-color: var(--color3);
 }
- .gshadow, .details, .comm, .tableTotals, #articles, #revisions, .history, .team-table {
+ .gshadow, .details, .comm, .tableTotals, #articles, #revisions, .history, .team-table, .articles {
 	 box-shadow: var(--shadow);
 }
  .themeBorderL {
@@ -32,16 +32,16 @@
 	 background-color: var(--color2);
 	 color: var(--fontColor2);
 }
- .tableTotals, #articles, #revisions, .history, .team-table {
+ .tableTotals, #articles, #revisions, .history, .team-table, .articles {
 	 background: #fff;
 }
- .tableTotals tbody:nth-child(even) tr:nth-child(odd), #articles tbody:nth-child(even) tr:nth-child(odd), #revisions tbody:nth-child(even) tr:nth-child(odd), .history tbody:nth-child(even) tr:nth-child(odd), .team-table tbody:nth-child(even) tr:nth-child(odd) {
+ .tableTotals tbody:nth-child(even) tr:nth-child(odd), #articles tbody:nth-child(even) tr:nth-child(odd), #revisions tbody:nth-child(even) tr:nth-child(odd), .history tbody:nth-child(even) tr:nth-child(odd), .team-table tbody:nth-child(even) tr:nth-child(odd),.articles tbody:nth-child(even) tr:nth-child(odd) {
 	 background-color: var(--color3);
 }
- .tableTotals tbody:nth-child(odd) tr:nth-child(even), #articles tbody:nth-child(odd) tr:nth-child(even), #revisions tbody:nth-child(odd) tr:nth-child(even), .history tbody:nth-child(odd) tr:nth-child(even), .team-table tbody:nth-child(odd) tr:nth-child(even) {
+ .tableTotals tbody:nth-child(odd) tr:nth-child(even), #articles tbody:nth-child(odd) tr:nth-child(even), #revisions tbody:nth-child(odd) tr:nth-child(even), .history tbody:nth-child(odd) tr:nth-child(even), .team-table tbody:nth-child(odd) tr:nth-child(even), .articles tbody:nth-child(odd) tr:nth-child(even) {
 	 background-color: var(--color3);
 }
- #articles {
+ #articles, .articles {
 	 margin: 1.25rem auto;
 }
  
