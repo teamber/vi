@@ -13,7 +13,7 @@
  .payeur {
 	 background-color: var(--color3);
 }
- .gshadow, .details, .comm, .tableTotals, #articles, #revisions, .history, .team-table, .themeBorderL {
+ .gshadow, .details, .comm, .tableTotals, #articles, #revisions, .history, .team-table, .themeBorderL, .articles {
 	 box-shadow: var(--shadow);
 	 border-radius: var(--border-radius);
 }
@@ -35,31 +35,31 @@
 	 background-color: var(--color3);
 	 color: var(--fontColor2);
 }
- .tableTotals, #articles, #revisions, .history, .team-table {
+ .tableTotals, #articles, #revisions, .history, .team-table, .articles {
 	 background: #fff;
 }
- .tableTotals tbody:nth-child(even) tr:nth-child(odd), #articles tbody:nth-child(even) tr:nth-child(odd), #revisions tbody:nth-child(even) tr:nth-child(odd), .history tbody:nth-child(even) tr:nth-child(odd), .team-table tbody:nth-child(even) tr:nth-child(odd) {
+ .tableTotals tbody:nth-child(even) tr:nth-child(odd), #articles tbody:nth-child(even) tr:nth-child(odd), #revisions tbody:nth-child(even) tr:nth-child(odd), .history tbody:nth-child(even) tr:nth-child(odd), .team-table tbody:nth-child(even) tr:nth-child(odd), .articles tbody:nth-child(even) tr:nth-child(odd) {
 	 background-color: var(--color3);
 }
- .tableTotals tbody:nth-child(odd) tr:nth-child(even), #articles tbody:nth-child(odd) tr:nth-child(even), #revisions tbody:nth-child(odd) tr:nth-child(even), .history tbody:nth-child(odd) tr:nth-child(even), .team-table tbody:nth-child(odd) tr:nth-child(even) {
+ .tableTotals tbody:nth-child(odd) tr:nth-child(even), #articles tbody:nth-child(odd) tr:nth-child(even), #revisions tbody:nth-child(odd) tr:nth-child(even), .history tbody:nth-child(odd) tr:nth-child(even), .team-table tbody:nth-child(odd) tr:nth-child(even), .articles tbody:nth-child(odd) tr:nth-child(even) {
 	 background-color: var(--color3);
 }
 
-.tableTotals > *:first-child tr:first-of-type td:first-child, #articles > *:first-child tr:first-of-type td:first-child, #revisions > *:first-child tr:first-of-type td:first-child, .history > *:first-child tr:first-of-type td:first-child, .team-table > *:first-child tr:first-of-type td:first-child, .tableTotals > *:first-child tr:first-of-type th:first-child, #articles > *:first-child tr:first-of-type th:first-child, #revisions > *:first-child tr:first-of-type th:first-child, .history > *:first-child tr:first-of-type th:first-child, .team-table > *:first-child tr:first-of-type th:first-child {
+.tableTotals > *:first-child tr:first-of-type td:first-child, #articles > *:first-child tr:first-of-type td:first-child, .articles > *:first-child tr:first-of-type td:first-child, #revisions > *:first-child tr:first-of-type td:first-child, .history > *:first-child tr:first-of-type td:first-child, .team-table > *:first-child tr:first-of-type td:first-child, .tableTotals > *:first-child tr:first-of-type th:first-child, #articles > *:first-child tr:first-of-type th:first-child, .articles > *:first-child tr:first-of-type th:first-child, #revisions > *:first-child tr:first-of-type th:first-child, .history > *:first-child tr:first-of-type th:first-child, .team-table > *:first-child tr:first-of-type th:first-child {
 	 border-radius: var(--border-radius) 0 0 0;
 }
- .tableTotals > *:first-child tr:first-of-type td:last-child, #articles > *:first-child tr:first-of-type td:last-child, #revisions > *:first-child tr:first-of-type td:last-child, .history > *:first-child tr:first-of-type td:last-child, .team-table > *:first-child tr:first-of-type td:last-child, .tableTotals > *:first-child tr:first-of-type th:last-child, #articles > *:first-child tr:first-of-type th:last-child, #revisions > *:first-child tr:first-of-type th:last-child, .history > *:first-child tr:first-of-type th:last-child, .team-table > *:first-child tr:first-of-type th:last-child {
+ .tableTotals > *:first-child tr:first-of-type td:last-child, #articles > *:first-child tr:first-of-type td:last-child, .articles > *:first-child tr:first-of-type td:last-child, #revisions > *:first-child tr:first-of-type td:last-child, .history > *:first-child tr:first-of-type td:last-child, .team-table > *:first-child tr:first-of-type td:last-child, .tableTotals > *:first-child tr:first-of-type th:last-child, #articles > *:first-child tr:first-of-type th:last-child, .articles > *:first-child tr:first-of-type th:last-child, #revisions > *:first-child tr:first-of-type th:last-child, .history > *:first-child tr:first-of-type th:last-child, .team-table > *:first-child tr:first-of-type th:last-child {
 	 border-radius: 0 var(--border-radius) 0 0;
 }
- .tableTotals > *:last-child tr:last-of-type td:first-child, #articles > *:last-child tr:last-of-type td:first-child, #revisions > *:last-child tr:last-of-type td:first-child, .history > *:last-child tr:last-of-type td:first-child, .team-table > *:last-child tr:last-of-type td:first-child, .tableTotals > *:last-child tr:last-of-type th:first-child, #articles > *:last-child tr:last-of-type th:first-child, #revisions > *:last-child tr:last-of-type th:first-child, .history > *:last-child tr:last-of-type th:first-child, .team-table > *:last-child tr:last-of-type th:first-child {
+ .tableTotals > *:last-child tr:last-of-type td:first-child, #articles > *:last-child tr:last-of-type td:first-child, .articles > *:last-child tr:last-of-type td:first-child, #revisions > *:last-child tr:last-of-type td:first-child, .history > *:last-child tr:last-of-type td:first-child, .team-table > *:last-child tr:last-of-type td:first-child, .tableTotals > *:last-child tr:last-of-type th:first-child, #articles > *:last-child tr:last-of-type th:first-child, .articles > *:last-child tr:last-of-type th:first-child, #revisions > *:last-child tr:last-of-type th:first-child, .history > *:last-child tr:last-of-type th:first-child, .team-table > *:last-child tr:last-of-type th:first-child {
 	 border-radius: 0 0 0 var(--border-radius);
 }
- .tableTotals > *:last-child tr:last-of-type td:last-child, #articles > *:last-child tr:last-of-type td:last-child, #revisions > *:last-child tr:last-of-type td:last-child, .history > *:last-child tr:last-of-type td:last-child, .team-table > *:last-child tr:last-of-type td:last-child, .tableTotals > *:last-child tr:last-of-type th:last-child, #articles > *:last-child tr:last-of-type th:last-child, #revisions > *:last-child tr:last-of-type th:last-child, .history > *:last-child tr:last-of-type th:last-child, .team-table > *:last-child tr:last-of-type th:last-child {
+ .tableTotals > *:last-child tr:last-of-type td:last-child, #articles > *:last-child tr:last-of-type td:last-child, .articles > *:last-child tr:last-of-type td:last-child, #revisions > *:last-child tr:last-of-type td:last-child, .history > *:last-child tr:last-of-type td:last-child, .team-table > *:last-child tr:last-of-type td:last-child, .tableTotals > *:last-child tr:last-of-type th:last-child, #articles > *:last-child tr:last-of-type th:last-child, .articles > *:last-child tr:last-of-type th:last-child, #revisions > *:last-child tr:last-of-type th:last-child, .history > *:last-child tr:last-of-type th:last-child, .team-table > *:last-child tr:last-of-type th:last-child {
 	 border-radius: 0 0 var(--border-radius) 0;
 }
  
 
- #articles, .comm {
+ #articles, .comm, .articles {
 	 margin: 1.25rem auto;
 }
  
