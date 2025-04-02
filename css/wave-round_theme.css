@@ -91,14 +91,14 @@
 	 background-color: var(--color2);
 	 color: var(--fontColor2);
 }
- .tableTotals, #articles, #revisions, .history, .team-table {
+ .tableTotals, #articles, #revisions, .history, .team-table, .articles {
 	 border-collapse: separate;
 	 border-spacing: var(--space);
 }
- .tableTotals td, #articles td, #revisions td, .history td, .team-table td {
+ .tableTotals td, #articles td, #revisions td, .history td, .team-table td, .articles td {
 	 background-color: var(--color3);
 }
- .tableTotals td, #articles td, #revisions td, .history td, .team-table td, .tableTotals th, #articles th, #revisions th, .history th, .team-table th {
+ .tableTotals td, #articles td, #revisions td, .history td, .team-table td, .tableTotals th, #articles th, #revisions th, .history th, .team-table th, .articles th {
 	 border-radius: var(--border-radius);
 }
  .tableTotals {
@@ -109,21 +109,21 @@
  .tableTotals tr td:last-child {
 	 width: 70px;
 }
- #articles {
+ #articles, .articles {
 	 margin: 50px auto;
 }
-#articles th {
+#articles th, .articles th {
 	background-color: var(--color1);
 }
 
- #articles thead tr:first-child th:not(:first-child) {
+ #articles thead tr:first-child th:not(:first-child), .articles thead tr:first-child th:not(:first-child) {
 	 border-left: 1px solid var(--color3);
 }
- #articles thead tr:last-child th {
+ #articles thead tr:last-child th, .articles thead tr:last-child th {
 	 border-top: 1px solid var(--color3);
 	 border-left: 1px solid var(--color3);
 }
-#articles .chapter td {
+#articles .chapter td, .articles .chapter td {
 	background-color: var(--color2) !important;
 }
 
