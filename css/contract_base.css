@@ -96,7 +96,7 @@ html {
 	 color: #fff;
 }
  .tableTotals {
-	 width: var(--tableTotalWidth);
+	 width: 100%;
 	 margin-left: auto;
 	 page-break-inside: avoid;
 }
@@ -146,7 +146,7 @@ html {
 	 flex: 1
 }
  .sumTables__right {
-	 
+	 width: var(--tableTotalWidth);
 }
  .history {
 	 width: 100%;
