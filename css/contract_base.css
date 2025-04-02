@@ -83,15 +83,15 @@ html {
  .comm {
 	 padding: 10px;
 }
- .tableTotals thead, #articles thead, #revisions thead, .history thead, .team-table thead {
+ .tableTotals thead, #articles thead, #revisions thead, .history thead, .team-table thead, .articles thead {
 	 background-color: var(--color1);
 	 color: #fff;
 }
- .tableTotals td, #articles td, #revisions td, .history td, .team-table td, .tableTotals th, #articles th, #revisions th, .history th, .team-table th {
+ .tableTotals td, #articles td, #revisions td, .history td, .team-table td, .tableTotals th, #articles th, #revisions th, .history th, .team-table th, .articles th {
 	 padding: var(--cell-padding);
 	 page-break-inside: avoid;
 }
- .tableTotals .bgColor, #articles .bgColor, #revisions .bgColor, .history .bgColor, .team-table .bgColor {
+ .tableTotals .bgColor, #articles .bgColor, #revisions .bgColor, .history .bgColor, .team-table .bgColor, .articles .bgColor {
 	 background-color: var(--color1);
 	 color: #fff;
 }
@@ -108,25 +108,25 @@ html {
 	 text-align: right;
 	 white-space: nowrap;
 }
- #articles {
+ #articles, .articles {
 	 width: 100%;
 	 text-align: center;
 }
- #articles td {
+ #articles td, .articles td  {
 	 vertical-align: top;
 }
- #articles .col0 {
+ #articles .col0, .articles .col0 {
 	 width: 50%;
 	 text-align: left;
 }
- #articles .chapter {
+ #articles .chapter, .articles .chapter {
 	 text-align: left;
 	 font-weight: bold;
 	 page-break-after: avoid;
 	 background-color: var(--color2) !important;
 	 color: var(--fontColor2);
 }
- #articles .chapter td {
+ #articles .chapter td, .articles .chapter td {
 	 color: var(--fontColor2);
 }
  #revisions {
