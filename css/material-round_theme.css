@@ -45,6 +45,20 @@
 	 background-color: var(--color3);
 }
 
+.tableTotals > *:first-child tr:first-of-type td:first-child, #articles > *:first-child tr:first-of-type td:first-child, #revisions > *:first-child tr:first-of-type td:first-child, .history > *:first-child tr:first-of-type td:first-child, .team-table > *:first-child tr:first-of-type td:first-child, .tableTotals > *:first-child tr:first-of-type th:first-child, #articles > *:first-child tr:first-of-type th:first-child, #revisions > *:first-child tr:first-of-type th:first-child, .history > *:first-child tr:first-of-type th:first-child, .team-table > *:first-child tr:first-of-type th:first-child {
+	 border-radius: var(--border-radius) 0 0 0;
+}
+ .tableTotals > *:first-child tr:first-of-type td:last-child, #articles > *:first-child tr:first-of-type td:last-child, #revisions > *:first-child tr:first-of-type td:last-child, .history > *:first-child tr:first-of-type td:last-child, .team-table > *:first-child tr:first-of-type td:last-child, .tableTotals > *:first-child tr:first-of-type th:last-child, #articles > *:first-child tr:first-of-type th:last-child, #revisions > *:first-child tr:first-of-type th:last-child, .history > *:first-child tr:first-of-type th:last-child, .team-table > *:first-child tr:first-of-type th:last-child {
+	 border-radius: 0 var(--border-radius) 0 0;
+}
+ .tableTotals > *:last-child tr:last-of-type td:first-child, #articles > *:last-child tr:last-of-type td:first-child, #revisions > *:last-child tr:last-of-type td:first-child, .history > *:last-child tr:last-of-type td:first-child, .team-table > *:last-child tr:last-of-type td:first-child, .tableTotals > *:last-child tr:last-of-type th:first-child, #articles > *:last-child tr:last-of-type th:first-child, #revisions > *:last-child tr:last-of-type th:first-child, .history > *:last-child tr:last-of-type th:first-child, .team-table > *:last-child tr:last-of-type th:first-child {
+	 border-radius: 0 0 0 var(--border-radius);
+}
+ .tableTotals > *:last-child tr:last-of-type td:last-child, #articles > *:last-child tr:last-of-type td:last-child, #revisions > *:last-child tr:last-of-type td:last-child, .history > *:last-child tr:last-of-type td:last-child, .team-table > *:last-child tr:last-of-type td:last-child, .tableTotals > *:last-child tr:last-of-type th:last-child, #articles > *:last-child tr:last-of-type th:last-child, #revisions > *:last-child tr:last-of-type th:last-child, .history > *:last-child tr:last-of-type th:last-child, .team-table > *:last-child tr:last-of-type th:last-child {
+	 border-radius: 0 0 var(--border-radius) 0;
+}
+ 
+
  #articles, .comm {
 	 margin: 1.25rem auto;
 }
