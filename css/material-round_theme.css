@@ -13,7 +13,7 @@
  .payeur {
 	 background-color: var(--color3);
 }
- .gshadow, .details, .comm, .tableTotals, #articles, #revisions, .history, .team-table {
+ .gshadow, .details, .comm, .tableTotals, #articles, #revisions, .history, .team-table, themeBorderL {
 	 box-shadow: var(--shadow);
 	 border-radius: var(--border-radius);
 }
