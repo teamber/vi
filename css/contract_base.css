@@ -140,7 +140,8 @@ html {
 
 .sumTables {
 	display: flex;
-	align-items: flex-start
+	align-items: flex-start;
+	margin: 1.25rem auto;
 }
  .sumTables__left {
 	 flex: 1;
