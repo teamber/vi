@@ -38,7 +38,12 @@
  .tableTotals, #articles, #revisions, .history, .team-table {
 	 background: #fff;
 }
-
+ .tableTotals tbody:nth-child(even) tr:nth-child(odd), #articles tbody:nth-child(even) tr:nth-child(odd), #revisions tbody:nth-child(even) tr:nth-child(odd), .history tbody:nth-child(even) tr:nth-child(odd), .team-table tbody:nth-child(even) tr:nth-child(odd) {
+	 background-color: var(--color3);
+}
+ .tableTotals tbody:nth-child(odd) tr:nth-child(even), #articles tbody:nth-child(odd) tr:nth-child(even), #revisions tbody:nth-child(odd) tr:nth-child(even), .history tbody:nth-child(odd) tr:nth-child(even), .team-table tbody:nth-child(odd) tr:nth-child(even) {
+	 background-color: var(--color3);
+}
 
  #articles, .comm {
 	 margin: 1.25rem auto;
