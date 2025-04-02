@@ -137,15 +137,16 @@ html {
 	 background-color: var(--color1) !important;
 	 color: #fff;
 }
+
+.sumTables {
+	display: flex;
+	align-items: flex-start
+}
  .sumTables__left {
-	 width: calc(100% - var(--tableTotalWidth));
-	 padding-right: 1.25rem;
-	 display: inline-block;
-	 vertical-align: top;
+	 flex: 1
 }
  .sumTables__right {
-	 display: inline-block;
-	 vertical-align: top;
+	 
 }
  .history {
 	 width: 100%;
