@@ -19,8 +19,8 @@
 }
  .themeBorderL, .comm {
 	 border-left: 5px solid var(--color2);
-	 padding-left: 10px;
-	 border-radius: 5px;
+	 padding: 10px;
+	 border-radius: var(--border-radius);
 }
  .details {
 	 background-color: var(--color1);
@@ -36,6 +36,18 @@
 }
  .tableTotals, #articles, #revisions, .history, .team-table {
 	 background: #fff;
+	 tr:first-of-type > td:fist-child, tr:first-of-type > th:fist-child {
+	 	border-radius: var(--border-radius) 0 0 0;
+	 }
+	 tr:first-of-type > td:last-child, tr:first-of-type > th:last-child {
+	 	border-radius: 0 var(--border-radius) 0 0;
+	 }
+	 tr:last-of-type > td:first-child {
+	 	border-radius: 0 0 0 var(--border-radius);
+	 }
+	 tr:last-of-type > td:last-child {
+	 	border-radius: 0 0 var(--border-radius) 0;
+	 }
 }
  .tableTotals tbody:nth-child(even) tr:nth-child(odd), #articles tbody:nth-child(even) tr:nth-child(odd), #revisions tbody:nth-child(even) tr:nth-child(odd), .history tbody:nth-child(even) tr:nth-child(odd), .team-table tbody:nth-child(even) tr:nth-child(odd) {
 	 background-color: var(--color3);
