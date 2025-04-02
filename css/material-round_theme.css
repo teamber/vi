@@ -1,0 +1,72 @@
+:root {       // Variables
+  
+  --color1: #7393B3;
+  --color2: #a5b9ce;
+  --color3: #f7f8fa;
+  
+  --text-color: black;
+  
+  --logo-width: 200px;
+  --tableTotalWidth: 250px;
+  
+  --cell-padding: 4px;
+  --border-radius: 5px;
+  --border-color: black;
+  
+  --shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+       
+}
+
+
+
+.payeur {
+  background-color: var(--color3);
+}
+
+.gshadow, .details, .comm, .tableTotals, #articles, #revisions, .history, .team-table {
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+}
+
+
+.themeBorderL {
+  border-left: 5px solid var(--color1);
+  padding-left: 10px;
+}
+
+.details {
+  background-color: var(--color1);
+  color: #fff;
+  .refClient {
+    background: var(--color2);
+    color: var(--fontColor2);
+  }
+}
+
+.comm {
+  background-color: var(--color2);
+  color: var(--fontColor2);
+}
+
+
+
+.tableTotals, #articles, #revisions, .history, .team-table {
+  background: #fff;
+  tbody {
+    &:nth-child(even) {
+      tr:nth-child(odd) {
+        background-color: var(--color3);
+      }
+    }
+    &:nth-child(odd) {
+      tr:nth-child(even) {
+        background-color: var(--color3);
+      }
+    }
+  }
+}
+
+
+#articles {
+  margin: 1.25rem auto;
+}
