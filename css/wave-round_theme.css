@@ -1,0 +1,128 @@
+:root {       // Variables
+  
+  --color1: #006168;
+  --color2: #61ba90;
+  --color3: #e5e5e5;
+  
+  --text-color: black;
+  
+  --space: 6px;
+  
+  --logo-width: 200px;
+  
+  --tableTotalWidth: 270px;
+  
+  --cell-padding: 4px 8px;
+  --border-radius: 20px;
+  --border-color: black;
+  
+  
+}
+
+.header {
+	 position: relative;
+}
+ .header__image {
+	 height: 105px;
+	 margin-top: 50px;
+	 z-index: 2;
+}
+ .header__details svg {
+	 transform: scaleX(-1);
+	 position: absolute;
+	 top: 0;
+	 right: 0;
+}
+ .footer {
+	 position: relative;
+}
+ .footer:after {
+	 counter-increment: page;
+	 content: counter(page) "/" counter(pages);
+	 position: absolute;
+	 bottom: 20px;
+}
+ .footer svg {
+	 position: absolute;
+	 transform: scaleX(-1) rotate(180deg);
+	 bottom: 0;
+	 left: 0;
+}
+ .footer__txt {
+	 text-align: right;
+}
+ .payeur {
+	 background-color: var(--color3);
+	 border-radius: var(--border-radius);
+	 margin-left: var(--space);
+	 margin-right: var(--space);
+}
+ .themeBorderL {
+	 padding-left: 13px;
+	 position: relative;
+	 margin-left: var(--space);
+	 margin-right: var(--space);
+}
+ .themeBorderL:before {
+	 content: '';
+	 width: 7px;
+	 height: 100%;
+	 background-color: var(--color2);
+	 position: absolute;
+	 left: 0;
+	 border-radius: 5px;
+}
+ .details {
+	 border-radius: var(--border-radius);
+	 margin-left: var(--space);
+	 margin-right: var(--space);
+	 background-color: var(--color1);
+	 color: #fff;
+}
+ .details .refClient {
+	 background: var(--color2);
+	 color: var(--fontColor2);
+}
+ .comm {
+	 border-radius: var(--border-radius);
+	 margin-top: 15px;
+	 margin-left: var(--space);
+	 margin-right: var(--space);
+	 background-color: var(--color2);
+	 color: var(--fontColor2);
+}
+ .tableTotals, #articles, #revisions, .history, .team-table {
+	 border-collapse: separate;
+	 border-spacing: var(--space);
+}
+ .tableTotals td, #articles td, #revisions td, .history td, .team-table td {
+	 background-color: var(--color3);
+}
+ .tableTotals td, #articles td, #revisions td, .history td, .team-table td, .tableTotals th, #articles th, #revisions th, .history th, .team-table th {
+	 border-radius: var(--border-radius);
+}
+ .tableTotals {
+	 width: var(--tableTotalWidth);
+	 margin-left: auto;
+	 page-break-inside: avoid;
+}
+ .tableTotals tr td:last-child {
+	 width: 70px;
+}
+ #articles {
+	 margin: 50px auto;
+}
+ #articles thead tr:first-child th:not(:first-child) {
+	 border-left: 1px solid var(--color3);
+}
+ #articles thead tr:last-child th {
+	 border-top: 1px solid var(--color3);
+	 border-left: 1px solid var(--color3);
+}
+ #revisions .col0 {
+	 width: 30%;
+}
+ .bon-accord__box {
+	 border-radius: var(--border-radius);
+}
+ 
