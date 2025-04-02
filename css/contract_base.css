@@ -1,3 +1,10 @@
+:root {
+	--logo-width: 200px;
+	--tableTotalWidth: 50%;
+	--cell-padding: 4px;
+	--border-color: black;
+}
+
 html {
 	 font-family: 'Poppins', sans-serif;
 	 font-size: 11.5px;
