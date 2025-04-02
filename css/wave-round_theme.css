@@ -115,9 +115,7 @@
 #articles th {
 	background-color: var(--color1);
 }
-#articles chapter td {
-	background-color: var(--color2);
-}
+
  #articles thead tr:first-child th:not(:first-child) {
 	 border-left: 1px solid var(--color3);
 }
@@ -125,6 +123,10 @@
 	 border-top: 1px solid var(--color3);
 	 border-left: 1px solid var(--color3);
 }
+#articles chapter td {
+	background-color: var(--color2);
+}
+
  #revisions .col0 {
 	 width: 30%;
 }
