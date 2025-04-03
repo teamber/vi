@@ -62,4 +62,8 @@
  #articles, .comm, .articles {
 	 margin: 1.25rem auto;
 }
+
+.mnt {
+	text-align: right !important;
+}
  
