@@ -98,7 +98,7 @@
  .tableTotals td, #articles td, #revisions td, .history td, .team-table td, .articles td {
 	 background-color: var(--color3);
 }
- .tableTotals td, #articles td, #revisions td, .history td, .team-table td, .tableTotals th, #articles th, #revisions th, .history th, .team-table th, .articles th {
+ .tableTotals td, #articles td, .articles td, #revisions td, .history td, .team-table td, .tableTotals th, #articles th, #revisions th, .history th, .team-table th, .articles th {
 	 border-radius: var(--border-radius);
 }
  .tableTotals {
