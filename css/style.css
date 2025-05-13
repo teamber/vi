@@ -71,6 +71,12 @@ ul {
   padding-left: 20px;
 }
 
+ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+  padding-left: 1.5rem;
+}
+
 #articles {
   table {
     width: auto;
