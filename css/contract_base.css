@@ -83,15 +83,15 @@ html {
  .comm {
 	 padding: 10px;
 }
- .tableTotals thead, #articles thead, #revisions thead, .history thead, .team-table thead, .articles thead {
+ .tableTotals thead, #articles thead, #revisions thead, .history thead, .team-table thead, .articles thead, .intervenants thead {
 	 background-color: var(--color1);
 	 color: #fff;
 }
- .tableTotals td, #articles td, #revisions td, .history td, .team-table td, .articles td, .tableTotals th, #articles th, #revisions th, .history th, .team-table th, .articles th {
+ .tableTotals td, #articles td, #revisions td, .history td, .team-table td, .articles td, .tableTotals th, #articles th, #revisions th, .history th, .team-table th, .articles th, .intervenants td {
 	 padding: var(--cell-padding);
 	 page-break-inside: avoid;
 }
- .tableTotals .bgColor, #articles .bgColor, #revisions .bgColor, .history .bgColor, .team-table .bgColor, .articles .bgColor {
+ .tableTotals .bgColor, #articles .bgColor, #revisions .bgColor, .history .bgColor, .team-table .bgColor, .articles .bgColor, .intervenants .bgColor {
 	 background-color: var(--color1);
 	 color: #fff;
 }
@@ -150,7 +150,7 @@ html {
  .sumTables__right {
 	 width: var(--tableTotalWidth);
 }
- .history {
+ .history, .intervenants {
 	 width: 100%;
 	 margin-bottom: 1.25rem;
 }
