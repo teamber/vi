@@ -87,7 +87,7 @@ html {
 	 background-color: var(--color1);
 	 color: #fff;
 }
- .tableTotals td, #articles td, #revisions td, .history td, .team-table td, .articles td, .tableTotals th, #articles th, #revisions th, .history th, .team-table th, .articles th, .intervenants td {
+ .tableTotals td, #articles td, #revisions td, .history td, .team-table td, .articles td, .tableTotals th, #articles th, #revisions th, .history th, .team-table th, .articles th, .intervenants td, .intervenants th {
 	 padding: var(--cell-padding);
 	 page-break-inside: avoid;
 }
