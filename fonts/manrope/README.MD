@@ -1,3 +1,3 @@
-@import url("https://raw.githubusercontent.com/teamber/vi/main/fonts/Gotham_Light/style.css");
+@import url("https://raw.githubusercontent.com/teamber/vi/refs/heads/main/fonts/manrope/manrope.css");
 
 font-family: "Manrope";
