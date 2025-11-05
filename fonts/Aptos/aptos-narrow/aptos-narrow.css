@@ -1,0 +1,33 @@
+/* aptos-narrow */
+@font-face {
+	font-family: "Aptos Narrow";
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 100%;
+	src: local("Aptos Narrow"), local("Aptos-Narrow"), url(aptos-narrow.woff2) format("woff2");
+}
+/* aptos-narrow-bold */
+@font-face {
+	font-family: "Aptos Narrow";
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 100%;
+	src: local("Aptos Narrow Bold"), local("Aptos-Narrow-Bold"), url(aptos-narrow-bold.woff2) format("woff2");
+}
+/* aptos-narrow-bold-italic */
+@font-face {
+	font-family: "Aptos Narrow";
+	font-style: italic;
+	font-weight: 700;
+	font-stretch: 100%;
+	src: local("Aptos Narrow Bold Italic"), local("Aptos-Narrow-Bold-Italic"), url(aptos-narrow-bold-italic.woff2) format("woff2");
+}
+/* aptos-narrow-italic */
+@font-face {
+	font-family: "Aptos Narrow";
+	font-style: italic;
+	font-weight: 400;
+	font-stretch: 100%;
+	src: local("Aptos Narrow Italic"), local("Aptos-Narrow-Italic"), url(aptos-narrow-italic.woff2) format("woff2");
+}
+

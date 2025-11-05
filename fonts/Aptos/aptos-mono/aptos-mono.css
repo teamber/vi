@@ -1,0 +1,33 @@
+/* aptos-mono */
+@font-face {
+	font-family: "Aptos Mono";
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 100%;
+	src: local("Aptos Mono"), local("AptosMono"), url(aptos-mono.woff2) format("woff2");
+}
+/* aptos-mono-bold */
+@font-face {
+	font-family: "Aptos Mono";
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 100%;
+	src: local("Aptos Mono Bold"), local("AptosMono-Bold"), url(aptos-mono-bold.woff2) format("woff2");
+}
+/* aptos-mono-bold-italic */
+@font-face {
+	font-family: "Aptos Mono";
+	font-style: italic;
+	font-weight: 700;
+	font-stretch: 100%;
+	src: local("Aptos Mono Bold Italic"), local("AptosMono-BoldItalic"), url(aptos-mono-bold-italic.woff2) format("woff2");
+}
+/* aptos-mono-italic */
+@font-face {
+	font-family: "Aptos Mono";
+	font-style: italic;
+	font-weight: 400;
+	font-stretch: 100%;
+	src: local("Aptos Mono Italic"), local("AptosMono-Italic"), url(aptos-mono-italic.woff2) format("woff2");
+}
+

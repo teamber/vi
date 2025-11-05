@@ -1,0 +1,33 @@
+/* aptos-serif */
+@font-face {
+	font-family: "Aptos Serif";
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 100%;
+	src: local("Aptos Serif"), local("AptosSerif-Regular"), url(aptos-serif.woff2) format("woff2");
+}
+/* aptos-serif-bold */
+@font-face {
+	font-family: "Aptos Serif";
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 100%;
+	src: local("Aptos Serif Bold"), local("AptosSerif-Bold"), url(aptos-serif-bold.woff2) format("woff2");
+}
+/* aptos-serif-bold-italic */
+@font-face {
+	font-family: "Aptos Serif";
+	font-style: italic;
+	font-weight: 700;
+	font-stretch: 100%;
+	src: local("Aptos Serif Bold Italic"), local("AptosSerif-BoldItalic"), url(aptos-serif-bold-italic.woff2) format("woff2");
+}
+/* aptos-serif-italic */
+@font-face {
+	font-family: "Aptos Serif";
+	font-style: italic;
+	font-weight: 400;
+	font-stretch: 100%;
+	src: local("Aptos Serif Italic"), local("AptosSerif-Italic"), url(aptos-serif-italic.woff2) format("woff2");
+}
+
