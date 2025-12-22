@@ -1,0 +1,97 @@
+/* avenir-lt-std-95-black */
+@font-face {
+	font-family: "Avenir LT Std";
+	font-style: normal;
+	font-weight: 900;
+	font-stretch: 100%;
+	src: local("Avenir LT Std 95 Black"), local("AvenirLTStd-Black"), url(avenir-lt-std-95-black.woff2) format("woff2");
+}
+/* avenir-lt-std-95-black-oblique */
+@font-face {
+	font-family: "Avenir LT Std";
+	font-style: italic;
+	font-weight: 900;
+	font-stretch: 100%;
+	src: local("Avenir LT Std 95 Black Oblique"), local("AvenirLTStd-BlackOblique"), url(avenir-lt-std-95-black-oblique.woff2) format("woff2");
+}
+/* avenir-lt-std-45-book */
+@font-face {
+	font-family: "Avenir LT Std";
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 100%;
+	src: local("Avenir LT Std 45 Book"), local("AvenirLTStd-Book"), url(avenir-lt-std-45-book.woff2) format("woff2");
+}
+/* avenir-lt-std-45-book-oblique */
+@font-face {
+	font-family: "Avenir LT Std";
+	font-style: italic;
+	font-weight: 400;
+	font-stretch: 100%;
+	src: local("Avenir LT Std 45 Book Oblique"), local("AvenirLTStd-BookOblique"), url(avenir-lt-std-45-book-oblique.woff2) format("woff2");
+}
+/* avenir-lt-std-85-heavy */
+@font-face {
+	font-family: "Avenir LT Std";
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 100%;
+	src: local("Avenir LT Std 85 Heavy"), local("AvenirLTStd-Heavy"), url(avenir-lt-std-85-heavy.woff2) format("woff2");
+}
+/* avenir-lt-std-85-heavy-oblique */
+@font-face {
+	font-family: "Avenir LT Std";
+	font-style: italic;
+	font-weight: 700;
+	font-stretch: 100%;
+	src: local("Avenir LT Std 85 Heavy Oblique"), local("AvenirLTStd-HeavyOblique"), url(avenir-lt-std-85-heavy-oblique.woff2) format("woff2");
+}
+/* avenir-lt-std-35-light */
+@font-face {
+	font-family: "Avenir LT Std";
+	font-style: normal;
+	font-weight: 300;
+	font-stretch: 100%;
+	src: local("Avenir LT Std 35 Light"), local("AvenirLTStd-Light"), url(avenir-lt-std-35-light.woff2) format("woff2");
+}
+/* avenir-lt-std-35-light-oblique */
+@font-face {
+	font-family: "Avenir LT Std";
+	font-style: italic;
+	font-weight: 300;
+	font-stretch: 100%;
+	src: local("Avenir LT Std 35 Light Oblique"), local("AvenirLTStd-LightOblique"), url(avenir-lt-std-35-light-oblique.woff2) format("woff2");
+}
+/* avenir-lt-std-65-medium */
+@font-face {
+	font-family: "Avenir LT Std";
+	font-style: normal;
+	font-weight: 500;
+	font-stretch: 100%;
+	src: local("Avenir LT Std 65 Medium"), local("AvenirLTStd-Medium"), url(avenir-lt-std-65-medium.woff2) format("woff2");
+}
+/* avenir-lt-std-65-medium-oblique */
+@font-face {
+	font-family: "Avenir LT Std";
+	font-style: italic;
+	font-weight: 500;
+	font-stretch: 100%;
+	src: local("Avenir LT Std 65 Medium Oblique"), local("AvenirLTStd-MediumOblique"), url(avenir-lt-std-65-medium-oblique.woff2) format("woff2");
+}
+/* avenir-lt-std-55-oblique */
+@font-face {
+	font-family: "Avenir LT Std";
+	font-style: italic;
+	font-weight: 400;
+	font-stretch: 100%;
+	src: local("Avenir LT Std 55 Oblique"), local("AvenirLTStd-Oblique"), url(avenir-lt-std-55-oblique.woff2) format("woff2");
+}
+/* avenir-lt-std-55-roman */
+@font-face {
+	font-family: "Avenir LT Std";
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 100%;
+	src: local("Avenir LT Std 55 Roman"), local("AvenirLTStd-Roman"), url(avenir-lt-std-55-roman.woff2) format("woff2");
+}
+
