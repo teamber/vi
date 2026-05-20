@@ -48,6 +48,8 @@ table {
 
 .page-break, break, .break {
   page-break-before: always;
+  break-before: page;
+  display: block;
 }
 
 .chapter {
